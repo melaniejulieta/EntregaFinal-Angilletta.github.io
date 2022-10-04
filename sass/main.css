@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+/* GLOBALES */
+#header {
+  background-color: #59231E;
+  padding: 7px;
+  margin-bottom: 20px;
+}
+
+#body {
+  background-color: #EBDDD1;
+}
+
+/* HOME */
+#homeViewheight {
+  height: 100vh;
+}
+
+.flexHome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+#intro {
+  flex: 30%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 75px;
+  margin: 10px;
+  height: auto;
+  text-align: center;
+  border: 3px solid #59231E;
+  color: #59231E;
+}
+#intro .titulo {
+  font-size: 42px;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-style: italic;
+  font-weight: 900;
+}
+
+.imagenPrincipal {
+  flex: 700px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  margin: 10px;
+}
+.imagenPrincipal img {
+  width: 100%;
+}
+
+/* GALERIA */
+#galeriaViewheight {
+  height: 100vh;
+  width: auto;
+}
+
+.flexGaleria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mainGaleria {
+  text-align: center;
+}
+.mainGaleria h2 {
+  font-size: 40px;
+  text-decoration: underline;
+  color: #59231E;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.mainGaleria .imagenesGaleria img {
+  width: 50%;
+  height: auto;
+  padding: 20px;
+}
+
+.videosMusicales {
+  text-align: center;
+}
+
+div.videosMusicales h2 {
+  font-size: 40px;
+  text-decoration: underline;
+  color: #59231E;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+div.videosMusicales iframe {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+}
+
+/* DISCOGRAFIA */
+#discografiaViewheight {
+  height: 100vh;
+  width: auto;
+}
+
+.flexDiscografia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+}
+
+.albumes {
+  width: 100%;
+  height: auto;
+}
+.albumes img {
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+
+/* TOUR */
+.tourViewheight {
+  height: 100vh;
+}
+
+#tourCards {
+  height: 77vh;
+  display: flex;
+  flex-direction: row;
+  margin: 27px;
+  padding: 17px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#tourCards .card {
+  padding: 10px;
+  margin: 17px;
+  flex: auto;
+  background-color: #59231E;
+  color: #EBDDD1;
+  text-align: center;
+}
+#tourCards .btn {
+  background-color: #EBDDD1;
+  color: #59231E;
+  border: none;
+}
+
+#body h2 {
+  font-size: 40px;
+  text-decoration: underline;
+  color: #59231E;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+#body section.infoTour div.recital1, #body section.infoTour div.recital2, #body section.infoTour div.recital3 {
+  text-align: center;
+}
+
+/* CONTACTO */
+#contactoViewheight {
+  height: 100vh;
+}
+
+.flexContacto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+  height: 100vh;
+}
+
+#body div.textoContacto {
+  padding: 40px;
+  margin: 20px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  border: 3px solid #59231E;
+  color: #59231E;
+  text-align: center;
+}
+#body div.textoContacto h2 {
+  text-decoration: underline;
+  font-size: 32px;
+  width: 100%;
+}
+#body div.textoContacto p {
+  font-size: 17px;
+}
+
+#mainContacto {
+  width: 100%;
+  border: 3px solid #59231E;
+  font-size: 17px;
+  text-decoration: underline;
+  padding: 40px;
+  margin: 20px;
+}
+
+.btn {
+  color: #EBDDD1;
+  background-color: #59231E;
+}
+
+/* FOOTER */
+#footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  background-color: #59231E;
+}
+#footer div.logoFooter img {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+}
+#footer div.redes img {
+  position: relative;
+  top: 20%;
+}
+#footer div.copy p {
+  color: #EBDDD1;
+  position: absolute;
+  right: 0%;
+}
+
+/* Media Q */
+@media (max-width: 767px) {
+  #tourCards, .flexContacto {
+    flex-direction: column;
+    height: auto;
+  }
+}/*# sourceMappingURL=main.css.map */
