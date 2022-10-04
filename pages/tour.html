@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <title>Eventos</title>
+    <title>Tour</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body id="body">
 
-    <header id="header">
+    <div class="tourViewheigth">
+      <header id="header">
         <nav class="navbar navbar-expand-lg bg-propio navbar-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Sabrina Carpenter</a>
@@ -39,30 +40,38 @@
               </div>
             </div>
           </nav>
-    </header>
+      </header>
 
-    <h2>Tour 2022/2023</h2>
+      <h2>Tour 2022/2023</h2>
 
-    <section class="infoTour">
-        <div class="recital1">
-            <img src="../imagenes/Recital1 Lincoln Theatre Washington.png" alt="recital1">
-            <h3>Wasinhgton, DC.</h3>
-            <p>07/10/22 at Lincoln Theatre.</p>
-            <button>TICKETS</button>
+      <main id="tourCards">
+       <div class="card" style="width: 18rem;">
+          <img src="../imagenes/Recital1 Lincoln Theatre Washington.png" class="card-img-top" alt="recital1">
+         <div class="card-body">
+           <h5 class="card-title">Wasinhgton, DC</h5>
+            <p class="card-text">07/10/22 at Lincoln Theatre.</p>
+          <a href="#" class="btn btn-primary">TICKETS</a>
         </div>
-        <div class="recital2">
-            <img src="../imagenes/Recital2 The Observatory North Park.png" alt="recital2">
-            <h3>San Diego, CA.</h3>
-            <p>13/10/22 at The Observatory North Park.</p>
-            <button>TICKETS</button>
+       </div>
+  
+        <div class="card" style="width: 18rem;">
+         <img src="../imagenes/Recital2 The Observatory North Park.png" class="card-img-top" alt="recital2">
+         <div class="card-body">
+            <h5 class="card-title">San Diego, CA</h5>
+           <p class="card-text">13/10/22 at The Observatory North Park.</p>
+           <a href="#" class="btn btn-primary">TICKETS</a>
+          </div>
         </div>
-        <div class="recital3">
-            <img src="../imagenes/Recital3 The Regency Ballroom.png" alt="recital3">
-            <h3>San Francisco, CA.</h3>
-            <p>16/10/22 at The Regency Ballroom.</p>
-            <button>TICKETS<button>
+  
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/Recital1 Lincoln Theatre Washington.png" class="card-img-top" alt="recital3">
+         <div class="card-body">
+            <h5 class="card-title">San Francisco, CA</h5>
+            <p class="card-text">16/10/22 at The Regency Ballroom.</p>
+           <a href="#" class="btn btn-primary">TICKETS</a>
+         </div>
         </div>
-    </section>
+      </main>
     
     <footer id="footer">
 
@@ -90,6 +99,7 @@
         </div>
 
     </footer>
+    </div>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

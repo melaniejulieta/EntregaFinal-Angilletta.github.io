@@ -139,6 +139,37 @@ div.videosMusicales iframe {
 }
 
 /* TOUR */
+
+.tourViewheight {
+    height: 100vh;
+}
+
+#tourCards {
+    height: 77vh;
+    display: flex;
+    flex-direction: row;
+    margin: 27px;
+    padding: 17px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#tourCards .card {
+   padding: 10px;
+   margin: 17px;
+   flex: auto;
+   background-color: #59231E;
+   color: #EBDDD1;
+   text-align: center;
+}
+
+#tourCards .btn {
+    background-color: #EBDDD1;
+    color: #59231E;
+    border: none;
+}
+
 #body h2 {
     font-size: 40px;
     text-decoration: underline;
