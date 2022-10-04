@@ -89,9 +89,13 @@ span {
 }
 
 .mainGaleria .imagenesGaleria img {
-    width: 75%;
+    width: 50%;
     height: auto;
     padding: 20px;
+}
+
+.mainGaleria {
+    text-align: center;
 }
 
 .videosMusicales {
@@ -109,8 +113,10 @@ div.videosMusicales h2 {
 }
 
 div.videosMusicales iframe {
-    width: 100%;
-    height: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
     padding: 20px;
 }
 
@@ -139,6 +145,7 @@ div.videosMusicales iframe {
 .albumes img {
     padding: 10px;
     margin: 10px;
+    width: 50%;
 }
 
 /* TOUR */
@@ -204,10 +211,11 @@ div.videosMusicales iframe {
 
 .flexContacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 50px;
     width: 100%;
+    height: 100vh;
 }
 
 #body div.textoContacto {
@@ -233,7 +241,6 @@ div.videosMusicales iframe {
 
 #mainContacto {
     width: 100%;
-    height: auto;
     border: 3px solid #59231E;
     font-size: 17px;
     text-decoration: underline;
@@ -275,4 +282,19 @@ div.videosMusicales iframe {
     color: #EBDDD1;
     position: absolute;
     right: 0%;
+}
+
+/* Media Q */
+
+@media (max-width: 767px) {
+    #tourCards {
+        flex-direction: column;
+        height: auto;
+    }
+
+        .flexContacto {
+            flex-direction: column;
+        height: auto;
+        }
+
 }
