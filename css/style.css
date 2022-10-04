@@ -70,6 +70,7 @@ span {
 
 #galeriaViewheight {
     height: 100vh;
+    width: auto;
 }
 
 .flexGaleria {
@@ -88,7 +89,7 @@ span {
 }
 
 .mainGaleria .imagenesGaleria img {
-    width: 50%;
+    width: 75%;
     height: auto;
     padding: 20px;
 }
@@ -117,6 +118,7 @@ div.videosMusicales iframe {
 
 #discografiaViewheight {
     height: 100vh;
+    width: auto;
 }
 
 .flexDiscografia {
@@ -126,6 +128,7 @@ div.videosMusicales iframe {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    width: 100%;
 }
 
 .albumes {
@@ -204,23 +207,24 @@ div.videosMusicales iframe {
     flex-direction: column;
     align-items: center;
     padding: 50px;
-    width: auto;
+    width: 100%;
 }
 
 #body div.textoContacto {
     padding: 40px;
     margin: 20px;
-    width: 500px;
+    width: 100%;
     height: auto;
     text-align: left;
     border: 3px solid #59231E;
     color: #59231E;
-    flex: 40%;
+    text-align: center;
 }
 
 #body div.textoContacto h2 {
     text-decoration: underline;
     font-size: 32px;
+    width: 100%;
 }
 
 #body div.textoContacto p {
@@ -228,14 +232,18 @@ div.videosMusicales iframe {
 }
 
 #mainContacto {
-    width: 500px;
+    width: 100%;
     height: auto;
     border: 3px solid #59231E;
     font-size: 17px;
     text-decoration: underline;
-    flex: 40%;
     padding: 40px;
     margin: 20px;
+}
+
+.btn {
+    color: #EBDDD1;
+    background-color: #59231E;
 }
 
 
