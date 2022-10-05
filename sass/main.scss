@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   /* GLOBALES */
@@ -103,6 +103,7 @@
   
   .videosMusicales {
     text-align: center;
+    flex: auto;
   }
   
   div.videosMusicales {
@@ -116,11 +117,13 @@
     }
   
     iframe {
+        flex: auto;
       flex-direction: row;
       flex-wrap: wrap;
       width: 50%;
-      height: auto;
+      height: 400px;
       padding: 20px;
+
     }
   }
   
@@ -181,6 +184,7 @@
       background-color: #EBDDD1;
       color: #59231E;
       border: none;
+      font-weight: 700;
     }
   }
   
