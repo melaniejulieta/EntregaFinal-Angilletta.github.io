@@ -261,4 +261,14 @@ div.videosMusicales iframe {
     flex-direction: column;
     height: auto;
   }
+}
+@media (min-width: 1500px) {
+  .flexHome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+  }
 }/*# sourceMappingURL=main.css.map */
