@@ -70,13 +70,38 @@ span {
   width: auto;
 }
 
-#galeriaH2 h2 {
+.mainGaleria {
+  text-align: center;
+}
+.mainGaleria h2 {
   font-size: 40px;
   text-decoration: underline;
   color: #59231E;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.videosMusicales {
+  text-align: center;
+  flex: auto;
+}
+
+div.videosMusicales h2 {
+  font-size: 40px;
+  text-decoration: underline;
+  color: #59231E;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+div.videosMusicales iframe {
+  flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 400px;
+  padding: 20px;
 }
 
 /* DISCOGRAFIA */
